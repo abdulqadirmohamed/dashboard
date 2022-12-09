@@ -5,10 +5,10 @@ module.exports = {
   ],
   theme: {
     colors: {
-      blue: '#6266EB',
+      blue: '#752cdf',
       lightBlue: '#EDF0FB',
-      black: '#383874',
-      gray: '#B8B4CB',
+      black: '#171616',
+      gray: '#878ba7',
       lightGray: '#F1F0FE',
       white: '#FFFFFF',
       lightRed: '#fdefd2' 

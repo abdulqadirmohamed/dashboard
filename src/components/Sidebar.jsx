@@ -8,7 +8,7 @@ import { FaPython } from 'react-icons/fa';
 const Sidebar = () => {
     // const options = [{id:1, title:'Dashboard', ]
   return (
-    <div className='h-screen bg-white p-8'>
+    <div className='h-screen bg-white p-8 fixed'>
         <h1>Logo</h1>
         <SidebarOption text="Dashboard"/>
         <SidebarOption text="Lessons"/>
