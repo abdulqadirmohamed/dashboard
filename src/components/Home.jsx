@@ -3,6 +3,8 @@ import Chart from './Chart'
 import Header from './Header'
 import Sidebar from './Sidebar'
 import Summery from './Summery'
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+
 
 function Home() {
   return (
@@ -16,10 +18,10 @@ function Home() {
             <div className='col-span-5'>
                 <Header/>
                 <div className='w-[95%] mx-auto py-5'>
+                    {/* <Header/> */}
                     <Summery/>
                     <Chart/>
                 </div>
-                
             </div>
         </div>
     </div>

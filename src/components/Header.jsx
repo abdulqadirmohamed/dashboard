@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="bg-white p-5">
+    <div className="bg-white p-5 shadow-sm">
       <div className="flex justify-between items-center w-[95%] mx-auto">
         <div>Header</div>
         <div className="flex gap-2 items-center text-gray">
