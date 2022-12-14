@@ -4,6 +4,7 @@ import Header from './Header'
 import Sidebar from './Sidebar'
 import Summery from './Summery'
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Table from './Table'
 
 
 function Home() {
@@ -12,15 +13,15 @@ function Home() {
         <div className='grid grid-cols-6'>
             {/* sidebar */}
             <div className='col-span-1'>
-                <Sidebar/>
             </div>
             {/* Body */}
             <div className='col-span-5'>
-                <Header/>
+                {/* <Header/> */}
                 <div className='w-[95%] mx-auto py-5'>
                     {/* <Header/> */}
                     <Summery/>
                     <Chart/>
+                    {/* <Table/> */}
                 </div>
             </div>
         </div>
